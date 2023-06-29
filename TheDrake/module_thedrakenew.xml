@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_thedrakenew" default="compile.module.thedrakenew">
+  <dirname property="module.thedrakenew.basedir" file="${ant.file.module_thedrakenew}"/>
+  
+  <property name="module.jdk.home.thedrakenew" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.thedrakenew" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.thedrakenew" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.thedrakenew" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="thedrakenew.output.dir" value="${module.thedrakenew.basedir}/out/production/TheDrakeNew"/>
+  <property name="thedrakenew.testoutput.dir" value="${module.thedrakenew.basedir}/out/test/TheDrakeNew"/>
+  
+  <path id="thedrakenew.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="thedrakenew.module.production.classpath">
+    <path refid="${module.jdk.classpath.thedrakenew}"/>
+  </path>
+  
+  <path id="thedrakenew.runtime.production.module.classpath">
+    <pathelement location="${thedrakenew.output.dir}"/>
+  </path>
+  
+  <path id="thedrakenew.module.classpath">
+    <path refid="${module.jdk.classpath.thedrakenew}"/>
+    <pathelement location="${thedrakenew.output.dir}"/>
+  </path>
+  
+  <path id="thedrakenew.runtime.module.classpath">
+    <pathelement location="${thedrakenew.testoutput.dir}"/>
+    <pathelement location="${thedrakenew.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.thedrakenew">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.thedrakenew">
+    <patternset refid="excluded.from.module.thedrakenew"/>
+  </patternset>
+  
+  <path id="thedrakenew.module.sourcepath">
+    <dirset dir="${module.thedrakenew.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.thedrakenew" depends="compile.module.thedrakenew.production,compile.module.thedrakenew.tests" description="Compile module TheDrakeNew"/>
+  
+  <target name="compile.module.thedrakenew.production" depends="register.custom.compilers" description="Compile module TheDrakeNew; production classes">
+    <mkdir dir="${thedrakenew.output.dir}"/>
+    <javac2 destdir="${thedrakenew.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.thedrakenew}/javac">
+      <compilerarg line="${compiler.args.thedrakenew}"/>
+      <bootclasspath refid="thedrakenew.module.bootclasspath"/>
+      <classpath refid="thedrakenew.module.production.classpath"/>
+      <src refid="thedrakenew.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.thedrakenew"/>
+    </javac2>
+    
+    <copy todir="${thedrakenew.output.dir}">
+      <fileset dir="${module.thedrakenew.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.thedrakenew.tests" depends="register.custom.compilers,compile.module.thedrakenew.production" description="compile module TheDrakeNew; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.thedrakenew" description="cleanup module">
+    <delete dir="${thedrakenew.output.dir}"/>
+    <delete dir="${thedrakenew.testoutput.dir}"/>
+  </target>
+</project>
