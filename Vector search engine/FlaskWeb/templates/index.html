@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block body%}
+<div class="container mt-5">
+    <h1 align="center">Vector search</h1>
+    <form method="post">
+        <input type="text" name="title" id="title" class="form-control" placeholder="Enter words and weights in format: word(w),.." >
+        <input type="submit" class="btn btn-success" value="OK"><br>
+    </form>
+</div>
+{% for article in articles %}
+<div>
+    <p class="positioned">Articles`s name: {{article.name}} Similarity = {{article.similarity}}  <a href="{{article.link}}" target="_blank">Link</a> </p>
+</div>
+{% endfor %}
+{% endblock body%}

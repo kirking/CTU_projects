@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Engine
+{% endblock title %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1>Engine settings</h1>
+    <form class="form-inline" method="POST" >
+     <select name="engine_select" class="selectpicker form-control">
+
+              <option value="1">Generate new sparse matrix</option>
+              <option value="2">Inverted index from JSON</option>
+              <option value="3">Generate new sequential matrix</option>
+              <option value="4">Sequential version from json</option>
+     </select>
+
+    <input type="submit" class="btn btn-success" value="OK"><br>
+    </form>
+</div>
+{% endblock body %}
+</html>

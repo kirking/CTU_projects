@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Scrapper
+{% endblock title %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1>Scrapping settings</h1>
+    <form method="post">
+        <a1>From which page do you want to start? (1..500)</a1>
+        <input type="text" name="start" id="start" class="form-control"><br>
+        <a1>At which page do you want to end scrapping? (1..500)</a1>
+        <input type="text" name="end" id="end" class="form-control"><br>
+        <input type="submit" class="btn btn-success" value="OK"><br>
+    </form>
+</div>
+{% endblock body %}
+</html>

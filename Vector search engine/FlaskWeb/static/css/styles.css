@@ -1,0 +1,69 @@
+.positioned {
+  position: relative;
+  top: 30px;
+  left: 4px;
+}
+
+
+
+input {
+    width: 100%;
+    height: 42px;
+    background: #F9F0DA;
+    padding-left: 15px;a
+}
+
+#search a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#search a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#search a:hover, a:active {
+  color: white;
+  background-color: green;
+}
+
+
+
+#result a:link, a:visited {
+  float: LEFT
+  background-color: #f44336;
+  color: white;
+  left: 4px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#result a:link, a:visited {
+  float: LEFT
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#result a:hover, a:active {
+  float: LEFT
+  color: white;
+  background-color: blue;
+}

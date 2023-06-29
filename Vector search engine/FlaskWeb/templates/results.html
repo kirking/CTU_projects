@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block body%}
+<div id="result" class="container mt-5">
+    <h1 align="center">Results</h1><br>
+    <h2 align="center">{{ input }}</h2>
+    <form method="post">
+        <a href="/" class="btn">Back to search</a>
+    </form>
+</div>
+
+
+{% for article in articles %}
+<div id="search">
+    <p class="positioned">Articles`s name: {{article.name}} Similarity = {{article.similarity}}  <a href="{{article.link}}" target="_blank">Link</a> </p>
+</div>
+{% endfor %}
+{% endblock body%}
