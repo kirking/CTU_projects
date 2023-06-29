@@ -1,2 +1,2 @@
 # CTU_projects
-Projects written during my studies
+Some of the projects written during my studies in CTU FIT.
