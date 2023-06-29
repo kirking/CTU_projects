@@ -1,0 +1,49 @@
+Pacman
+=========================
+Autor: Kirill Poligach
+
+Arkadova real-time hra , cilem je snist vsechny tecky v bludiste.
+Duchy se stara zabit pacmana , kdyz pacman snida vsechny tecky ,
+meni se level a obtiznost hry.
+
+Vstup je s klavesnici.
+
+Pri implementaci byla pouzita knihovna SDL2.
+
+Moznosti:
+
+1: Standartni hra , se standartnimi pravidlami. (New game)
+
+2: Ulozeni hry do souboru ( klavesa f5 ).
+
+3: Nahrat ulozenou hru ze souboru.( Load game)
+
+4: Nahrat konfigurovanou hru ze souboru. (Custom game)
+
+5: Pause (klavesa mezera )
+
+6: Vychod (klavesa escape)
+
+7: Smerovat pacmana je mozne pomoci sipek.
+
+8: Hra automaticky uklada high score.
+
+Soubory (saveFile a customFile) obsahuji mapu , a vypada mapa tak:
+
+: 'G' - zavrene vrata
+
+: 'g' - otevrene vrata
+
+: 'T' - tunel
+
+: 'r' - cesta bez tecek(bonusu)
+
+: 'W' - stena
+
+: 'o' - mala tecka (10 bodu)
+
+: 'O' - energizer (50 bodu) , meni mode hry
+
+: 'F' - ovoce ( pocet bodu zalezi na levelu)
+
+Soubor highScore uchovava high score hry.

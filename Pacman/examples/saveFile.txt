@@ -1,0 +1,149 @@
+score =30
+eatenBonuses =3
+pacmanLifes =3
+pacDir =-1
+pacmanInitPos.x =14
+pacmanInitPos.y =23
+pacmanPos.x =10
+pacmanPos.y =23
+pacSpeed =0.800000
+BlinkyInitPos.x =13
+BlinkyInitPos.y =11
+BlinkyState =1
+BlinkyInitDir =-1
+BlinkyBonusesToRelease =0
+BlinkyPos.x =12
+BlinkyPos.y =10
+BlinkynextDir =-1
+BlinkyCurDir =2
+BlinkyReleaseCounter =3
+BlinkystartCounter =1
+BlinkyForwardPos.x =12
+BlinkyForwardPos.y =9
+BlinkySpeed =0.450000
+PinkyInitPos.x =13
+PinkyInitPos.y =14
+PinkyState =4
+PinkyInitDir =2
+PinkyBonusesToRelease =0
+PinkyPos.x =13
+PinkyPos.y =12
+PinkynextDir =2
+PinkyCurDir =2
+PinkyReleaseCounter =3
+PinkystartCounter =1
+PinkyForwardPos.x =13
+PinkyForwardPos.y =11
+PinkySpeed =0.450000
+InkyInitPos.x =11
+InkyInitPos.y =14
+InkyState =3
+InkyInitDir =2
+InkyBonusesToRelease =30
+InkyPos.x =11
+InkyPos.y =14
+InkynextDir =2
+InkyCurDir =2
+InkyReleaseCounter =3
+InkystartCounter =1
+InkyForwardPos.x =11
+InkyForwardPos.y =14
+InkySpeed =0.450000
+ClydeInitPos.x =15
+ClydeInitPos.y =14
+ClydeState =3
+ClydeInitDir =2
+ClydeBonusesToRelease =60
+ClydePos.x =15
+ClydePos.y =14
+ClydenextDir =2
+ClydeCurDir =2
+ClydeReleaseCounter =3
+ClydestartCounter =0
+ClydeForwardPos.x =15
+ClydeForwardPos.y =14
+ClydeSpeed =0.450000
+fruitTimer =0
+scareTimer =0
+curMode =1
+Map:
+tunPos.x =27
+tunPos.y =14
+tunDir =-1
+gatesPos.x =14
+gatesPos.y =12
+fruitPoints =0
+FruitPos.x =13
+FruitPos.y =17
+WWWWWWWWWWrrrWTWrrrWWWWWWWWWWWW
+WooOoooooWrrrWrWrrrWoooOWWooooW
+WoWWWoWWoWrrrWrWrrrWoWWoWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWooooWWoW
+WoWWWoWWoWrrrWrWrrrWoWWWWWoWWoW
+WoWWWoWWoWWWWWrWWWWWoWWWWWoWWoW
+WooooooooooooooooooooooooooWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWooooWWrrrrrrrrroWWooooWWoW
+WoWWWoWWoWWrWWWWWrWWoWWoWWoWWoW
+WoWWWoWWoWWrWrrrWrWWoWWoWWoWWoW
+WoooooWWorrrWrrrWrWWooooWWooooW
+WWWWWoWWWWWrGrrrWrWWWWWrWWWWWoW
+WWWWWoWWWWWrGrrrWrWWWWWrWWWWWoW
+WoooooWWorrrWrrrWrWWooooWWooooW
+WoWWWoWWoWWrWrrrWrWWoWWoWWoWWoW
+WoWWWoWWoWWrWWWWWrWWoWWoWWoWWoW
+WoWWWooooWWrrrrrrrrroWWooooWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WooooooooooooooooooooooooooWWoW
+WoWWWoWWoWWWWWrWWWWWoWWWWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWWWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWooooWWoW
+WoWWWoWWoWrrrWrWrrrWoWWoWWoWWoW
+WooOoooooWrrrWrWrrrWoooOWWooooW
+WWWWWWWWWWrrrWTWrrrWWWWWWWWWWWW
+saveMap
+WWWWWWWWWWrrrWTWrrrWWWWWWWWWWWW
+WooOoooooWrrrWrWrrrWoooOWWooooW
+WoWWWoWWoWrrrWrWrrrWoWWoWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWooooWWoW
+WoWWWoWWoWrrrWrWrrrWoWWWWWoWWoW
+WoWWWoWWoWWWWWrWWWWWoWWWWWoWWoW
+WooooooooooooooooooooooooooWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWooooWWrrrrrrrrroWWooooWWoW
+WoWWWoWWoWWrWWWWWrWWoWWrWWoWWoW
+WoWWWoWWoWWrWrrrWrWWoWWrWWoWWoW
+WoooooWWorrrWrrrWrWWooorWWooooW
+WWWWWoWWWWWrgrrrWrWWWWWrWWWWWoW
+WWWWWoWWWWWrgrrrWrWWWWWrWWWWWoW
+WoooooWWorrrWrrrWrWWooooWWooooW
+WoWWWoWWoWWrWrrrWrWWoWWoWWoWWoW
+WoWWWoWWoWWrWWWWWrWWoWWoWWoWWoW
+WoWWWooooWWrrrrrrrrroWWooooWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WooooooooooooooooooooooooooWWoW
+WoWWWoWWoWWWWWrWWWWWoWWWWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWWWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWooooWWoW
+WoWWWoWWoWrrrWrWrrrWoWWoWWoWWoW
+WooOoooooWrrrWrWrrrWoooOWWooooW
+WWWWWWWWWWrrrWTWrrrWWWWWWWWWWWW
+difficulty parametrs:
+fruitRate =5
+scatterTiming =7000
+chaseTiming =20000
+scareTime =8000
+level =1
+changeCycle =0
+pacInitDir =-1
+defaultSpeed =0.450000
+tunnelSpeed =0.300000
+frightSpeed =0.200000
+pacmanSpeed =0.800000
+pacmanFrightSpeed =0.900000
+scatter =1
+stopScatter =0

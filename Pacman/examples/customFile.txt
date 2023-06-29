@@ -1,0 +1,56 @@
+difficulty parametrs:
+fruitRate =1
+scatterTiming =7000
+chaseTiming =20000
+scareTime =8000
+eatenBonusesToWin =100
+levelToStopFright =4
+chaseGain =1000
+pacmanLives =7
+pacInitDir =-1
+defaultSpeed =0.650000
+defaultSpeedGain = 0.05
+tunnelSpeed =0.400000
+tunnelSpeedGain =0.05
+frightSpeed =0.500000
+frightSpeedGain =0.05
+pacmanSpeed =0.800000
+pacmanSpeedGain =0.05
+pacmanFrightSpeed =0.900000
+pacmanFrightSpeedGain =0.05
+Map:
+tunPos.x =27
+tunPos.y =14
+tunDir =-1
+gatesPos.x =14
+gatesPos.y =12
+FruitPos.x =13
+FruitPos.y =17
+WWWWWWWWWWrrrWTWrrrWWWWWWWWWWWW
+WooOoooooWrrrWrWrrrWoooOWWooooW
+WoWWWoWWoWrrrWrWrrrWoWWoWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWooooWWoW
+WoWWWoWWoWrrrWrWrrrWoWWWWWoWWoW
+WoWWWoWWoWWWWWrWWWWWoWWWWWoWWoW
+WooooooooooooooooooooooooooWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWooooWWrrrrrrrrroWWooooWWoW
+WoWWWoWWoWWrWWWWWrWWoWWoWWoWWoW
+WoWWWoWWoWWrWrrrWrWWoWWoWWoWWoW
+WoooooWWorrrWrrrWrWWooooWWooooW
+WWWWWoWWWWWrGrrrWrWWWWWrWWWWWoW
+WWWWWoWWWWWrGrrrWrWWWWWrWWWWWoW
+WoooooWWorrrWrrrWrWWooooWWooooW
+WoWWWoWWoWWrWrrrWrWWoWWoWWoWWoW
+WoWWWoWWoWWrWWWWWrWWoWWoWWoWWoW
+WoWWWooooWWrrrrrrrrroWWooooWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WoWWWoWWWWWWWWrWWWWWoWWoWWWWWoW
+WooooooooooooooooooooooooooWWoW
+WoWWWoWWoWWWWWrWWWWWoWWWWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWWWWoWWoW
+WoWWWoWWoWrrrWrWrrrWoWWooooWWoW
+WoWWWoWWoWrrrWrWrrrWoWWoWWoWWoW
+WooOoooooWrrrWrWrrrWoooOWWooooW
+WWWWWWWWWWrrrWTWrrrWWWWWWWWWWWW
