@@ -1,0 +1,105 @@
+
+#exitButton{
+
+    -fx-background-color: transparent;
+
+    -fx-text-fill: blue;
+
+    -fx-background-image: url(Button.png);
+
+    -fx-background-size: cover;
+
+    -fx-font: 49px "Arial";
+
+}
+
+
+#pvpButton{
+
+    -fx-background-color: transparent;
+
+    -fx-text-fill: blue;
+
+    -fx-background-image: url(Button.png);
+
+    -fx-background-size: cover;
+
+
+
+    -fx-font: 49px "Arial";
+}
+#multiplayerButton{
+
+    -fx-min-height: 140;
+
+    -fx-min-width: 300;
+
+    -fx-background-color: transparent;
+
+    -fx-text-fill: blue;
+
+    -fx-background-image: url(Button.png);
+
+    -fx-background-size: cover;
+
+    -fx-background-position: center center;
+
+    -fx-font: 40px "Arial";
+
+    -fx-font-scale: light;
+}
+#singleplayerButton{
+
+    -fx-min-height: 140;
+
+    -fx-min-width: 300;
+
+    -fx-background-color: transparent;
+
+    -fx-text-fill: blue;
+
+    -fx-background-image: url(Button.png);
+
+    -fx-background-size: cover;
+
+    -fx-background-position: center center;
+
+    -fx-font: 40px "Arial";
+
+    -fx-font-scale: light;
+
+}
+#Label{
+
+    -fx-alignment: center;
+
+    -fx-background-color: #474b47;
+
+    -fx-font: 50px "Arial";
+
+    -fx-text-fill: Blue;
+
+
+    -fx-background-image: url(Button.png);
+
+    -fx-text-alignment: center center;
+
+    -fx-background-position: center center;
+
+     -fx-background-size: auto;
+
+}
+AnchorPane{
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url(Background.png);
+
+    -fx-background-size: contain;
+
+    -fx-background-position:  center center;
+
+
+
+
+}

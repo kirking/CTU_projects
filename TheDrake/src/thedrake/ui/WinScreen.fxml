@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="border" fx:controller="thedrake.ui.WinScreenController" minHeight="900" minWidth="820" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <Label fx:id="lblTest" text="Label">
+            <font>
+                <Font name="Arial" size="70.0" />
+            </font></Label>
+    </top>
+    <right>
+        <Button fx:id="okButton" cancelButton="true" onAction="#onOK" mnemonicParsing="false" text="Main menu" BorderPane.alignment="CENTER">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+    </right>
+</BorderPane>
